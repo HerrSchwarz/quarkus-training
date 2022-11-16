@@ -52,4 +52,5 @@ You can also copy the GreetingsResource and add a new path with a different mess
 ## Tests
 There was a test generated. Find it and alter the test. Go to the console, where you started the app, the test should already be executed. To rerun it press `r`.
 
-##
+## Database
+To add a DB refer to: https://redhat-developer-demos.github.io/quarkus-tutorial/quarkus-tutorial/panache.html
