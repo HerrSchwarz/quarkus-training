@@ -24,6 +24,7 @@ Another option is to use the Maven plugin to create the app:
 ```bash
 mvn "io.quarkus:quarkus-maven-plugin:create"
 ```
+(You need an installed maven for this)
 
 ## Start application
 You can either start the application using quarkus:
