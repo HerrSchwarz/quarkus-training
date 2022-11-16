@@ -13,6 +13,8 @@ public class GreetingResource {
 
     @ConfigProperty(name = "greeting")
     String greeting;
+    @ConfigProperty(name = "greeting2")
+    String greeting2;
 
 
     @GET
@@ -20,4 +22,5 @@ public class GreetingResource {
     public String hello() {
         return greeting;
     }
+
 }

@@ -16,7 +16,7 @@ public class EntityResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<Entity> hello() {
-        return Entity.findAll(Sort.by("name")).list();
+        return Entity.findAll().list();
     }
 
     @POST
