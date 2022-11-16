@@ -19,7 +19,7 @@ You can add group and artifact ids as options or change the build tool used. Def
 ```bash
 quarkus create app --help
 ```
-Another option is to use the Maven plugin:
+Another option is to use the Maven plugin to create the app:
 
 ```bash
 mvn "io.quarkus:quarkus-maven-plugin:create"
